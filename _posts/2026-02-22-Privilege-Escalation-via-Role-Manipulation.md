@@ -1,6 +1,6 @@
 # Privilege Escalation via Role Manipulation in a Healthcare Reporting Platform
 
-Last month I discovered a vulnerability in a **private healthcare program** that rewarded me $$$$ through their bug bounty program.
+Last month I discovered a vulnerability in a **private healthcare program** that rewarded me ****$ through their bug bounty program.
 
 After waiting for the responsible disclosure period (30+ days), I’m sharing a **redacted version** of the finding for educational purposes.
 
