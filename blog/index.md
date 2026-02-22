@@ -4,11 +4,13 @@ title: Blog
 permalink: /blog/
 ---
 
-# Posts
+# Blog
 
-{% raw %}{% for post in site.posts %}{% endraw %}
-<p>
-{{ post.date | date: "%b %d, %Y" }} <br>
+<ul>
+{% for post in site.posts %}
+<li>
+{{ post.date | date: "%Y-%m-%d" }} —
 <a href="{{ post.url }}">{{ post.title }}</a>
-</p>
-{% raw %}{% endfor %}{% endraw %}
+</li>
+{% endfor %}
+</ul>
